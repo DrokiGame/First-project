@@ -1,55 +1,80 @@
-header {
-    background-color: navy;
-    padding: 10px;
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    color:yellow;
 }
 
-header a {
-    color: black;
-    background-color: white;
-    font-size: 20px;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 10px;
+header {
+    background-color: black;
+    border:3px solid yellow;
+    border-radius: 15px;
+    color:yellow;
+    margin-bottom: 10px;
+    padding:5px;
 }
 
 header img {
-    width: 200px;
-    height: 60px;
+    border:1px solid yellow;
+    border-radius: 30px;
 }
 
-h1 {
-    text-align: center;
-    font-size: 50px;
+header a {
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    background-color:yellow;
+    padding:3px;
+    border-radius: 10px;
+    margin-right:10px;
 }
 
-h2 {
-    background-color: #2adede;
-    color: blueviolet;
-    font-size: 30px;
-}
-
-main p {
-    font-size: 20px;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid navy;
-    border-radius: 15px;
-}
-
-p img {
-    height: 150px;
-    width: 200px;
-}
-
-footer {
-    background-color: #8fddf2;
-    padding: 10px;
+h1,h2{
+    text-align:center;
+    background-color: black;
+    color:yellow;
+    border:2px solid yellow;
+    border-radius: 10px;
 }
 
 footer p {
-    background-color: white;
-    color: black;
-    padding: 5px;
+    color:yellow;
+    border:2px solid yellow;
+    background-color:black;
+    border-radius:5px;
+    padding:5px;
+}
+
+nav a {
+    color:yellow;
+    background-color:black;
+    border-radius: 5px;
+    border:2px solid yellow;
+    padding:3px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+a {
+    color:yellow;
+    background-color: black;
+    border:2px solid yellow;
+    text-decoration: none;
+    border-radius:10px;
+    padding:3px;
+    margin-right:30px;
+}
+
+table {
+    border-radius: 10px;
+    padding:5px;
+    background-color: gold;
+}
+
+.fireworks{
+    color:black;
+    font-size:20px;
+}
+
+p {
+    margin-right:200px;
 }
